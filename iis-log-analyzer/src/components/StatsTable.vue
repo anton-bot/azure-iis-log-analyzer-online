@@ -1,5 +1,5 @@
 <template>
-  <table class="table table-striped">
+  <table class="table table-striped" v-if="stats.hits !== ''">
     <tr>
       <td>Period</td>
       <td>{{ stats.period }}</td>
